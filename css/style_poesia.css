@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+ 
+
+body{
+  background: #ef402d;
+  color: beige;
+  margin: 0;
+  
+}
+
+#titulo{
+  width: 90%;
+  padding-top: 100px;
+  margin-left: 120px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#titulo img{
+  width: 60px;
+  margin-right: 5px;
+}
+
+#titulo h1{
+  justify-content: right;
+  display: inline;
+  font-size: 40px;
+}
+
+#titulo p{
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.logo-ods{
+  float: right;
+  margin-top: -180px;
+  margin-right: 180px;
+  background: white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-ods img{
+
+  height: 95px;
+  margin-top: -25px;
+
+
+}
+
+#titulo{
+  width: 90%;
+  padding-top: 100px;
+  margin-left: 120px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#titulo img{
+  width: 60px;
+  margin-right: 5px;
+}
+
+#titulo h1{
+  justify-content: right;
+  display: inline;
+  font-size: 40px;
+}
+
+#titulo p{
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.logo-ods{
+  float: right;
+  margin-top: -180px;
+  margin-right: 180px;
+  background: white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-ods img{
+
+  height: 95px;
+  margin-top: -25px;
+
+
+}
+
+#secao-menu{
+  font-family: 'Open Sans', sans-serif;
+  background: #f5f6fa;
+  align-content: center;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  height: 95%;
+  position: relative;
+  margin-bottom: 80px;
+  border: 2px solid #f1f2f6;
+  font-size: 20px;
+
+}
+
+#menu{
+  display: flex;
+  text-align: center ;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+#content-menu {
+  flex: 1;
+  padding: 60px 25px;
+
+}
+
+
+#content-menu h2{
+  padding-bottom: 50px;
+  display: inline-block;
+}
+#content-menu a .objetivos{
+  text-decoration: none;
+  color: #ef402d
+}
+  #content-menu a .objetivos:hover{
+    color: #bc2c19
+  }
+
+#content-menu a .poesia{
+  text-decoration: none;
+  color: #bc2c19
+}
+
+.border{
+  
+  
+  border-top:  1px solid #DCDCDC;
+  margin: auto;
+  text-align: center;
+}
+
+
+h3{
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+  color:rgb(255,255,255);
+  text-shadow: 0 0 2px rgb(255,255,255);
+}
+
+.p-card{
+ 
+  font-family: 'Abel', sans-serif;
+  color: white;
+  width:220px;
+  text-align: left;
+  margin: auto;
+}
+
+
+.card {
+
+  z-index: 1;
+  overflow: hidden;  
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  margin-bottom: 10px;
+  background: #d5341e;
+  transition:.6s;
+  border-radius: 2.5%;
+  
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+  .card:hover{
+
+    height: 1420px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+#rodape{
+  overflow: hidden;
+  margin-top: -50px;
+  margin-bottom: 1%;
+  border-top: 3px solid white;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+#rodape .links{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 100%;
+  padding-left: 10%;
+  margin-top: 1%;
+
+}
+#rodape .copyri a{
+  margin-top: -80px;
+  float: right;
+  margin-right: 20%;
+  color: white;
+}
+
+
+
+@media (max-width: 968px){
+
+  
+  #titulo{
+      padding-left: 2%;
+
+  }
+
+}
+
+@media (max-width: 1228px){
+  #menu{
+      text-align: center;
+  }
+
+  #titulo{
+      
+      display: flex;
+      margin: 5%;
+      align-content: center;
+      justify-content: center;
+  
+  }
+
+  #titulo img{
+      display: none;
+      margin-right: 5px;
+  }
+
+  .logo-ods{
+      display: none;
+  }
+ 
+  #menu{
+
+      flex-direction: column;
+    
+  } 
+}
+
+
+@media (max-width: 776px){
+  #rodape .copyri{
+   padding-top: 10%;
+   margin-bottom: 100px;
+  }
+
+  #rodape .copyri a{
+    
+      margin-bottom: 100px;
+  }
+
+  
+  
+}
+
+
+@media (max-width: 720px){
+  #rodape .copyri{
+   padding-top: 20%;
+   margin-bottom: 100px;
+  }
+
+  #rodape .copyri a{
+    
+      margin-bottom: 100px;
+  }
+
+  
+}
+
+
+@media (max-width: 400px){
+  #menu{
+      text-align: center;
+  }
+
+
+  #titulo h1{
+      
+     
+      font-size: 30px;
+      display: inline-block;
+
+  
+  }
+  #titulo p{
+      
+     margin-top: 150px;
+      font-size: 15px;
+      margin-left: -50%;
+      
+    
+  
+  }
+
+  #titulo img{
+      display: none;
+      margin-right: 5px;
+  }
+
+  .logo-ods{
+      display: none;
+  }
+ 
+  .card{
+    width: 200px;
+    font-size: 15px;
+   
+  }
+
+    .card:hover{
+      height:950px;
+    
+    }
+
+  .p-card{
+    margin-left: -10px;
+  }
+
+  h3{
+    font-size: 17px;
+  }
+ 
+}
+  
