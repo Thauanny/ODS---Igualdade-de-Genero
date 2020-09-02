@@ -78,19 +78,22 @@ body{
     margin-right: 30px;
 }
 
+
 #content-menu {
     flex: 1;
     padding: 60px 25px;
-}
-
-#content-menu h2{
+  
+  }
+  
+  
+  #content-menu h2{
     padding-bottom: 50px;
     display: inline-block;
   }
-  #content-menu a .poesia{
+#content-menu a .poesia{
     text-decoration: none;
     color: #ef402d
-  }
+}
 
     #content-menu a .poesia:hover{
         color: #bc2c19
@@ -325,14 +328,14 @@ body{
     #menu{
         text-align: center;
     }
-
-
+  
+  
     #titulo h1{
         
        
         font-size: 30px;
         display: inline-block;
-
+  
     
     }
     #titulo p{
@@ -343,6 +346,10 @@ body{
         
       
     
+    }
+  
+    h2{
+        margin-left: 25px;
     }
 
     #titulo img{
