@@ -103,6 +103,16 @@ body{
     text-decoration: none;
     color: #bc2c19
   }
+
+  #content-menu a .video{
+    text-decoration: none;
+    color: #ef402d
+  }
+  
+    #content-menu a .video:hover{
+      color: #bc2c19
+    }
+  
 .border{
     
     
